@@ -4,6 +4,11 @@
             "path": "Lib/site-packages/pkg_resources/tests/data/my-test-package-source",
             "envManager": "ms-python.python:conda",
             "packageManager": "ms-python.python:conda"
+        },
+        {
+            "path": "Lib/site-packages/pkg_resources/tests/data/my-test-package-source/.conda/Lib/site-packages/pkg_resources/tests/data/my-test-package-source",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
         }
     ],
     "python.testing.unittestArgs": [
