@@ -2,8 +2,8 @@
     "python-envs.pythonProjects": [
         {
             "path": "Lib/site-packages/pkg_resources/tests/data/my-test-package-source",
-            "envManager": "ms-python.python:venv",
-            "packageManager": "ms-python.python:pip"
+            "envManager": "ms-python.python:conda",
+            "packageManager": "ms-python.python:conda"
         }
     ],
     "python.testing.unittestArgs": [
